@@ -12,27 +12,29 @@
 }
 
 .main-page{
-    width: 95%;
+    width: 94%;
     position: relative;
     display: flex;
     flex-direction: column;
-    margin-left: 5%;
+    margin-left: 6%;
 }
 
 .navi{
     width: 6%;
     height: 100vh;
     background-color:#0F1014;
-    padding: 20px 15px;
+    padding: 20px 20px;
+    
     display: flex;
     flex-direction: column;
-    row-gap: 150px;
+    row-gap: 100px;
     position: fixed;
 }
 
 .logo{
     width: 100%;   
 }
+
 
 .navigation{
     width:100%;
@@ -42,10 +44,33 @@
     top : 0px;
     height: 100%;
     display:flex;
+    flex-direction: column;
+    margin-top: 12vh;
     align-items: center;
    
 }
 
+.subscribe{
+    margin-top: 0vh;
+    margin-bottom: 9vh;
+    color: #FFF;
+    background-color: #27231E;
+    align-self: center;
+    display: flex;
+    border-radius: 20px;
+    padding: 5px 5px;
+    font-size: 12px;
+    width: 70px;
+    column-gap: 2px;
+    align-items: center;
+    cursor: pointer;
+    color: #C0A265;
+    opacity: .7;
+}
+
+.subscribe:hover{
+    opacity: 1;
+}
 .icons{
     list-style-type: none;
     width:100%;
@@ -96,7 +121,7 @@
 
 .main-area{
     width :100%;
-    height : 200vh;
+    /* height : 200vh; */
     /* background-color: cornflowerblue; */
     position: absolute;
     margin-top: 40vh;
@@ -104,20 +129,24 @@
 
 .banner-detail{
     width :100%;
+    height: 260px;
     /* background-color: rgb(116, 116, 8); */
+    
 }
 
 .detail-space{
-    width:30%;
+    width:35%;
     height: 100%;
+    padding:5px;
     /* background-color: #3B3B38; */
+    margin-bottom: 1px;
     
 }
 
 .movie-detail{
     color: #FFF;
     font-family: Inter;
-    font-size: 20px ;
+    font-size: 18px ;
     font-style: normal;
     padding: 10px;
     font-weight: 600;
@@ -146,7 +175,7 @@
 }
 
 .movie-story{
-    margin-top:5vh;
+    margin-top:3vh;
     color: #FFF;
     font-size: 15px;
     font-family: Inter;
@@ -155,12 +184,13 @@
 
 .movie-genere{
     color: #FFF;
-    margin-top: 5vh;
+    margin-top: 4vh;
+    font-family: Inter;
 }
 
 .watch{
     width:100%;
-    margin-top: 5vh;
+    margin-top: 3vh;
     /* background-color: black; */
     display: flex;
     column-gap: 12px;
@@ -205,3 +235,112 @@
 .plus-button:hover{
     opacity: 1;
 }
+
+.movie-sections{
+    width:100%;
+    padding:10px 0px 20px 10px;
+    /* margin-top: 4px; */
+    background-color: black;
+    color: #FFF;  
+}
+
+.movie-sections-header{
+    /* background-color: chocolate; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-title{
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+
+}
+
+.view-all{
+    font-size: 15px;
+    font-weight: 600;
+    opacity: 0.7;
+    cursor: pointer;
+
+}
+
+.view-all:hover{
+    opacity: 1;
+    transition: .2s;
+}
+
+.movies{
+    width:100%;
+    /* height:300px; */
+    /* background-color: lighstgreen; */
+    /* margin-top: 10px; */
+    position: relative;
+    overflow:hidden;
+}
+
+.swiper-left{
+    background:linear-gradient(to right,#0F1014 15%,transparent,transparent);
+    position: absolute;
+    width:3%;
+    height: 100%;
+    display:flex;
+    justify-content: flex-start;
+    padding-left: 3px;
+    align-items: center;
+    font-size: 20px;
+}
+
+.swiper-right{
+    background:linear-gradient(to left,#0F1014 15%,transparent,transparent);
+    position: absolute;
+    width:3%;
+    height: 100%;
+    right: 0;
+    display:flex;
+    justify-content: flex-start;
+    padding-right: 2px;
+    align-items: center;
+    font-size: 20px;
+}
+
+.slider{
+    width: fit-content;
+    /* background-color: darkorange; */
+    display:flex;
+    column-gap: 4px;
+    transition: .8s;
+    }
+
+
+.movie{
+    width: fit-content;
+    height:fit-content;
+    /* background-color: darkmagenta;  */
+    border-radius: 10px; 
+    overflow: hidden; 
+}
+
+.movie-img{
+    width:175px;
+    height :250px;
+}
+
+.brands{
+    width :100%;
+    padding:10px 10px;
+    background-color: black;
+    display: flex;
+    column-gap: 6px;
+}
+
+.brand{
+    width: fit-content;
+    height:fit-content;
+    background-color: blue;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+
+
