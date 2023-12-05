@@ -632,9 +632,8 @@ ul{
     color: #fff;
 }
 
-.copyright h5{
+.footer-col h5{
     margin-top: 30px;
-    padding-left:15px ;
     color: #bbbbbb;
     font-family: inter;
     font-size: 13px;
@@ -642,11 +641,12 @@ ul{
 
 .conditions{
     display:flex;
+    column-gap: 8px;
 }
 
-.copyright .conditions a{
+.footer-col .conditions a{
     margin-top: 10px;
-    padding-left:15px ;
+    padding-left:2px;
     font-family: inter;
     font-size: 12px;
     text-transform: capitalize;
@@ -655,8 +655,22 @@ ul{
     font-weight: 300;
     display:block;
 }
-
-.apps{
+.footer-col-apps{
+    width:20%;
+    display: flex;
+    column-gap: 5px;
+    padding: 0 15px;
+    padding-left: 49%;
     margin-top: 20px;
-    padding-left: 650px;
+
+    
 }
+
+.playstore .appstore img{
+    width:100%;
+    
+}
+
+
+
+ 
