@@ -549,9 +549,9 @@
 
 /* footer */
 
-/* .container{
+.container{
     max-width:1170px;
-    background-color: brown;
+    /* background-color: brown; */
     
 }
 
@@ -624,7 +624,7 @@ ul{
     display:inline-block;
     height: 40px;
     width: 40px;
-    background-color:#0F1014;
+    /* background-color:#0F1014; */
     margin: 0 10px 10px 0;
     text-align: center;
     line-height: 30px;
@@ -659,4 +659,4 @@ ul{
 .apps{
     margin-top: 20px;
     padding-left: 650px;
-} */
+}
