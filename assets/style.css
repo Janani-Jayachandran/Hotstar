@@ -661,9 +661,7 @@ ul{
     column-gap: 5px;
     padding: 0 15px;
     padding-left: 49%;
-    margin-top: 20px;
-
-    
+    margin-top: 20px;   
 }
 
 .playstore .appstore img{
@@ -833,17 +831,21 @@ transition: .3s;
 .mainpage{
     
     height:800px;
-    display:flex;
     background-color: #0F1014;
+   
+}
+
+.content-page{
+    display: flex;
+    height: 600px;
 }
  
 .para{
     width:500px;
-    height:77%; 
+    height:100%; 
     padding:3em 3em;
-    /* background-color: brown; */
     background-color: #0F1014;
-    
+ 
 }
 
 .para p{
@@ -853,14 +855,13 @@ transition: .3s;
     font-size: 38px;
     font-style: normal;
     font-weight: 700;
-    line-height: 48px; /* 120% */
+    line-height: 48px; 
 }
 
 .read{
     width:900px;
-    height:77%;
+    height:100%;
     background-color: #0F1014;
-    /* background-color: #bbbbbb; */
     margin-left:8%;
 }
 
@@ -884,7 +885,7 @@ th,td{
     font-size: 18px;
     font-style: normal;
     font-weight: 300;
-    line-height: 30px; /* 170.833% */  
+    line-height: 30px;  
 }
 
 td:nth-child(1){
@@ -927,7 +928,6 @@ th:nth-child(2) {
 .plans{
     height:16%;
     color:white;
-    /* background-color: blueviolet; */
     margin-top: 1em;
     display: flex;
     column-gap: 9px;
@@ -1037,4 +1037,128 @@ th:nth-child(2) {
 .continue-btn button:hover{
     transition: .5s;
     transform: scale(1.01);
+}
+
+
+
+.subcription-footer{
+    background-color:#0F1014;
+    padding: 20px 30px;
+    padding-top: 100px;
+}
+
+.sub-container{
+    max-width:1400px;
+    /* background-color: brown; */
+    padding-left: 60px;
+}
+
+.sub-row{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.sub-row ul{
+    list-style: none;
+}
+
+
+.sub-footer-col{
+    width:25%;
+    padding:0 9px;
+}
+
+.sub-footer-col h4{
+    font-size: 16px;
+    color: white;
+    font-family: inter;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+
+.sub-footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.sub-footer-col ul li a{
+    font-family: inter;
+    font-size: 15px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #918f8f;
+    font-weight: 300;
+    display:block;
+}
+
+.sub-check{
+    display: flex;
+    column-gap: 10px;
+    
+}
+
+.sub-check a{
+    font-family: inter;
+    font-size: 15px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #918f8f;
+    font-weight: 300;
+    display:block;
+}
+
+.sub-check i{
+    color:#918f8f;
+    font-size: 20px;
+    
+}
+
+.sub-footer-col .sub-social-links a{
+    display:inline-block;
+    height: 40px;
+    width: 40px;
+    /* background-color:#0F1014; */
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50px;
+    color: #fff;
+}
+
+.sub-footer-col h5{
+    margin-top: 30px;
+    color: #918f8f;
+    font-family: inter;
+    font-size: 13px;
+}
+
+.sub-conditions{
+    display:flex;
+    column-gap: 8px;
+}
+
+.sub-footer-col .sub-conditions a{
+    margin-top: 10px;
+    padding-left:2px;
+    font-family: inter;
+    font-size: 13px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color:#918f8f ;
+    font-weight: 300;
+    display:block;
+}
+.sub-footer-col-apps{
+    width:20%;
+    display: flex;
+    column-gap: 5px;
+    padding: 0 15px;
+    padding-left: 49%;
+    margin-top: 20px;   
+}
+
+ .sub-playstore .sub-appstore img{
+    width:100%;
+    
 }
