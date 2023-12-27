@@ -839,10 +839,11 @@ transition: .3s;
  
 .para{
     width:500px;
-    height:70%; 
+    height:77%; 
     padding:3em 3em;
+    /* background-color: brown; */
     background-color: #0F1014;
-    /* padding: 30px 50px; */
+    
 }
 
 .para p{
@@ -857,8 +858,9 @@ transition: .3s;
 
 .read{
     width:900px;
-    height:60%;
+    height:77%;
     background-color: #0F1014;
+    /* background-color: #bbbbbb; */
     margin-left:8%;
 }
 
@@ -920,4 +922,119 @@ th:nth-child(2) {
 .icon2{
     font-size: 25px;
     
+}
+
+.plans{
+    height:16%;
+    color:white;
+    /* background-color: blueviolet; */
+    margin-top: 1em;
+    display: flex;
+    column-gap: 9px;
+   
+}
+
+.super{
+    width:30%;
+    background-color:#0F1014;
+    border: 2px solid white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    color: white;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight:550;
+    
+}
+.super-plan{
+    color: #D9BE75;
+    font-weight: 600;
+    font-size: 19px;
+    letter-spacing:.5px;
+    
+}
+
+.premium-plan{
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing:.5px;
+}
+
+
+.premium{
+    width:30%;
+    background-color:#0F1014;
+    border: 1px solid rgba(112, 122, 148, 0.33);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    color: white;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 550;
+   
+}
+
+.symbol{
+    background-color: #0733A8;
+    width:28px;
+    height: 28px;
+    padding: 4px;
+    padding-left: 8px;
+    border-radius: 20px;
+    margin-left: 89%;
+    margin-top: -20px;
+    font-size:17px;
+    
+}
+
+.days-plan{
+    display: flex;
+    padding-top: 5px;
+}
+
+.days-plan h5{
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 590;
+}
+
+.days-plan h6{
+    padding-top: 2px;
+    font-weight: 300;
+}
+
+.days-plan h3{
+    font-weight: 590;
+}
+
+.continue-btn button{
+    width:730px;
+    padding: 18px 30px;
+    margin-top: 20px;
+    background-color: #0733A8;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    font-family: inter;
+    font-weight: 600;
+    letter-spacing: 0.3px; 
+}
+
+.continue-btn button i{
+    margin-left: 8px;
+}
+
+.continue-btn button:hover{
+    transition: .5s;
+    transform: scale(1.01);
 }
