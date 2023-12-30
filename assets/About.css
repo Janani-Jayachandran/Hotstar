@@ -309,7 +309,7 @@ label #cancel{
     bottom:25%;
     width:114px;
     height:110px;
-    background-color: rgb(75, 75, 196);
+    background-color: rgb(86, 86, 196);
     color: white;
     
 }
@@ -403,4 +403,66 @@ label #cancel{
     width: 90px;
     padding-right: 10px;
     padding-top: 10px;
+}
+
+.disney{
+    width:850px;
+    height:200px;
+    background-color: rgb(230, 224, 224);
+    color: white;
+    margin:50px auto;
+    padding:30px;
+}
+
+.disney h1{
+    color:  #EE2558;
+    font-size: 27px;
+    font-weight: 400;
+}
+
+.disney h3{
+    padding-top: 5px;
+    color: black;
+    font-size: 15px;
+    font-weight: 550;
+}
+
+.img-box{
+    background: #1B2047;
+    width:100%;
+    height:380px;
+
+}
+.people{
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+.people img{
+    width:600px;
+    height:540px;
+    padding-left: 40px;
+    padding-top: 160px;
+    
+}
+
+.content{
+    width: 400px;
+    padding-top: 180px;
+}
+.content h1{
+    font-weight: 600;
+    color: white;
+}
+.platform{
+    color: #EE2558;
+}
+
+.sub-content h3{
+    padding-bottom: 20px;
+    padding-top:90px;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgb(100, 100, 100);
 }
