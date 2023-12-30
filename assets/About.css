@@ -442,15 +442,16 @@ label #cancel{
 .people img{
     width:600px;
     height:540px;
-    padding-left: 40px;
+    padding-left: 2px;
     padding-top: 160px;
     
 }
 
 .content{
-    width: 400px;
+    width: 420px;
     padding-top: 180px;
 }
+
 .content h1{
     font-weight: 600;
     color: white;
@@ -465,4 +466,117 @@ label #cancel{
     font-size: 13px;
     font-weight: 400;
     color: rgb(100, 100, 100);
+}
+
+.mission{
+    
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 60px;
+    /* justify-content: center; */
+    /* padding: 90px; */
+    padding-top: 120px;
+    /* padding-left: 80px; */
+    width:100%;
+}
+
+.mission img{
+       width:680px;
+       height:350px;
+       padding-left: 150px;
+}
+
+.mission-content{
+        width: 380px;
+        padding-top: 20px;
+        /* padding: 30px; */
+}
+
+.mission-content h1{
+    color:#EE2558;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.mission-content h4{
+    color: rgb(26, 25, 25);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 23px;
+    word-spacing: 3px;
+    
+}
+
+.values{
+    
+    display: flex;
+    column-gap: 60px;
+    /* justify-content: space-around; */
+    /* padding: 70px; */
+    /* padding-top: 0px; */
+    padding-left: 160px;
+    width:100%;
+}
+
+.values img{
+    width:550px;
+    height:350px;
+   padding-left: 35px;
+}
+
+.value-content{
+    width: 425px;
+    padding-top: 20px;
+    padding-left: 25px;
+}
+
+.value-content h1{
+color:#EE2558;
+font-size: 60px;
+font-weight: 600;
+}
+
+.circle-1, .circle-2, .circle-3, .circle-4,
+.circle-5, .circle-6, .circle-7,
+.circle-8, .circle-9 {
+display: flex;
+
+}
+
+.circle-2 i, .circle-6 i {
+    color: #EE2558;
+}
+
+.circle-1 i, .circle-5 i, .circle-9 i{
+    color: rgb(255, 115, 0);
+}
+
+.circle-3 i, .circle-7 i{
+    color:rgb(86, 86, 196) ;
+}
+
+.circle-4 i, .circle-8 i{
+    color:rgb(26, 151, 173);
+}
+
+ i{
+    
+    font-size: 7px;
+    padding: 7px; 
+}
+
+
+.values-img{
+    width:850px;
+    height:350px;
+}
+
+.value-content h4{
+    color: rgb(26, 25, 25);
+    font-weight: 480;
+    font-size: 15px;
+    line-height: 23px;
+    word-spacing: 3px;
+    line-height: 25px;
+    
 }
