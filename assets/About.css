@@ -309,7 +309,7 @@ label #cancel{
     bottom:25%;
     width:114px;
     height:110px;
-    background-color: rgb(75, 75, 196);
+    background-color: rgb(86, 86, 196);
     color: white;
     
 }
@@ -403,4 +403,222 @@ label #cancel{
     width: 90px;
     padding-right: 10px;
     padding-top: 10px;
+}
+
+.disney{
+    width:850px;
+    height:200px;
+    background-color: rgb(230, 224, 224);
+    color: white;
+    margin:50px auto;
+    padding:30px;
+}
+
+.disney h1{
+    color:  #EE2558;
+    font-size: 27px;
+    font-weight: 400;
+}
+
+.disney h3{
+    padding-top: 5px;
+    color: black;
+    font-size: 15px;
+    font-weight: 550;
+}
+
+.img-box{
+    background: #1B2047;
+    width:100%;
+    height:380px;
+
+}
+.people{
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+.people img{
+    width:600px;
+    height:540px;
+    padding-left: 2px;
+    padding-top: 160px;
+    
+}
+
+.content{
+    width: 420px;
+    padding-top: 180px;
+}
+
+.content h1{
+    font-weight: 600;
+    color: white;
+}
+.platform{
+    color: #EE2558;
+}
+
+.sub-content h3{
+    padding-bottom: 20px;
+    padding-top:90px;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgb(100, 100, 100);
+}
+
+.mission{
+    
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 60px;
+    padding-top: 120px;
+    width:100%;
+}
+
+.mission img{
+       width:680px;
+       height:350px;
+       padding-left: 150px;
+}
+
+.mission-content{
+        width: 380px;
+        padding-top: 20px;
+}
+
+.mission-content h1{
+    color:#EE2558;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.mission-content h4{
+    color: rgb(26, 25, 25);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 23px;
+    word-spacing: 3px;
+    
+}
+
+.values{
+    
+    display: flex;
+    column-gap: 60px;
+    padding-left: 160px;
+    width:100%;
+}
+
+.values img{
+    width:550px;
+    height:350px;
+   padding-left: 35px;
+}
+
+.value-content{
+    width: 425px;
+    padding-top: 20px;
+    padding-left: 25px;
+}
+
+.value-content h1{
+color:#EE2558;
+font-size: 60px;
+font-weight: 600;
+}
+
+.circle-1, .circle-2, .circle-3, .circle-4,
+.circle-5, .circle-6, .circle-7,
+.circle-8, .circle-9 {
+display: flex;
+
+}
+
+.circle-2 i, .circle-6 i {
+    color: #EE2558;
+}
+
+.circle-1 i, .circle-5 i, .circle-9 i{
+    color: rgb(255, 115, 0);
+}
+
+.circle-3 i, .circle-7 i{
+    color:rgb(86, 86, 196) ;
+}
+
+.circle-4 i, .circle-8 i{
+    color:rgb(26, 151, 173);
+}
+
+ i{
+    
+    font-size: 7px;
+    padding: 7px; 
+}
+
+
+.values-img{
+    width:850px;
+    height:350px;
+}
+
+.value-content h4{
+    color: rgb(26, 25, 25);
+    font-weight: 480;
+    font-size: 15px;
+    line-height: 23px;
+    word-spacing: 3px;
+    line-height: 25px;
+    
+}
+
+.crew h1{
+    font-size: 40px;
+} 
+
+#slider{
+    height: 300px;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    padding-top: 30px;
+    padding-left: 80px;
+}
+
+.container{
+    width:1600px;
+    margin:auto;
+}
+
+.subcontainer{
+    width:80%;
+    margin:auto;
+}
+
+/* .slide-img{
+    width:100%;
+    height:275px;
+    border-radius: 5px;
+    background-position: center;
+    display: flex;
+    align-items: center;
+} */
+
+.img-detail{
+    
+    width: 260px;
+}
+.img-detail p{
+    font-size: 15px;
+    color: rgb(109, 108, 108);
+    font-weight: 500;
+}
+
+
+@media (max-width:1600px){
+    .container{
+        width:100%;
+    }
 }

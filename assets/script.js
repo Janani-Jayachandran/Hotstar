@@ -98,3 +98,34 @@ dropdowns.forEach(dropdown =>{
         });
     });
 });
+
+
+
+let slider= tns({
+    container : ".my-slider",
+    "sliderBy": "1",
+    "speed":900,
+    "nav":false,
+    autoplay:true,
+    controls:false,
+    autoplayButtonOutput: false,
+    responsive: {
+        1600:{
+            items:4,
+            gutter:10
+        },
+        1024:{
+            items:3,
+            gutter:10
+        },
+
+        768:{
+            items:2,
+            gutter:10
+        },
+        480 :{
+            items:1,
+            gutter:10
+        }
+    }
+})
