@@ -473,10 +473,7 @@ label #cancel{
     display: flex;
     flex-wrap: wrap;
     column-gap: 60px;
-    /* justify-content: center; */
-    /* padding: 90px; */
     padding-top: 120px;
-    /* padding-left: 80px; */
     width:100%;
 }
 
@@ -489,7 +486,6 @@ label #cancel{
 .mission-content{
         width: 380px;
         padding-top: 20px;
-        /* padding: 30px; */
 }
 
 .mission-content h1{
@@ -511,9 +507,6 @@ label #cancel{
     
     display: flex;
     column-gap: 60px;
-    /* justify-content: space-around; */
-    /* padding: 70px; */
-    /* padding-top: 0px; */
     padding-left: 160px;
     width:100%;
 }
@@ -579,4 +572,53 @@ display: flex;
     word-spacing: 3px;
     line-height: 25px;
     
+}
+
+.crew h1{
+    font-size: 40px;
+} 
+
+#slider{
+    height: 300px;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    padding-top: 30px;
+    padding-left: 80px;
+}
+
+.container{
+    width:1600px;
+    margin:auto;
+}
+
+.subcontainer{
+    width:80%;
+    margin:auto;
+}
+
+/* .slide-img{
+    width:100%;
+    height:275px;
+    border-radius: 5px;
+    background-position: center;
+    display: flex;
+    align-items: center;
+} */
+
+.img-detail{
+    
+    width: 260px;
+}
+.img-detail p{
+    font-size: 15px;
+    color: rgb(109, 108, 108);
+    font-weight: 500;
+}
+
+
+@media (max-width:1600px){
+    .container{
+        width:100%;
+    }
 }
