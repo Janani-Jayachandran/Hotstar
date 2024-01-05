@@ -1174,7 +1174,7 @@ th:nth-child(2) {
     width:100%;
     position: relative;
     background-color:#070b25 ;
-    display: flex;
+    /* display: flex; */
 }
 .login-navi{
     width: 6%;
@@ -1194,7 +1194,7 @@ th:nth-child(2) {
     margin-left: 6%;
 }
 
-.login-main-page button {
+.help-btn {
     margin-left: 77%;
     margin-top: 4%;
     margin-bottom: 4%;;
@@ -1206,36 +1206,36 @@ th:nth-child(2) {
     color: white;
     border: none;
     opacity: 0.7;
-    
+    cursor: pointer;
 }
 
-.login-main-page button:hover{
+.help-btn:hover{
      color: white;
      transform: scale(1.03);
      transition:.3s;
      opacity: 1;
 }
 
-.login{
+.login-page{
     margin-left: 35%;
     margin-bottom: -15%;
 
 }
 
-.login img{
+.login-page img{
     width:350px;
     margin-bottom: -10%;
     /* margin-top: 2%; */
 }
 
-.login p{
+.login-page p{
     font-size: 30px;
     color: rgb(241, 234, 234);
     margin-top:90px;
     font-family: inter;
 }
 
-.login h3{
+.login-page h3{
     color: rgb(97, 97, 97);
     font-size: 15px;
     font-family: inter;
@@ -1244,10 +1244,31 @@ th:nth-child(2) {
     margin-top: 10px;
 }
 
-.login button{
+.login-btn{
 margin-left: 6%;
+margin-top:1%;
+padding: 12px 20px;
 width:250px;
 color: white;
+font-size: 24px;
+border-radius: 10px;
 background-color: #0733A8;
+cursor: pointer;
+border: none;
 }
 
+.login-btn:hover{
+        
+     transform: scale(1.03);
+     transition:.3s;
+        
+}
+
+.login-footer{
+    background-color:#0F1014;
+    padding-top: 400px;
+    padding-left: 100px;
+    padding-bottom: 20px;
+
+}
+ 
