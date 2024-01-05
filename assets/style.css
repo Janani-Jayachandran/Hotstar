@@ -1173,7 +1173,7 @@ th:nth-child(2) {
 .login-main{
     width:100%;
     position: relative;
-    background-color:#070b25 ;
+    /* background-color:#070b25 ; */
 }
 .login-navi{
     width: 6%;
