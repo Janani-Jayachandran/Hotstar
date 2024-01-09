@@ -177,82 +177,10 @@ label #cancel{
     padding:auto;
 }
 
-/* .container{
-    margin-top: 17%;
-    margin-left: 17%;
-    padding: 20px;
-}
-
-.dropdowns{
-    min-width:240px;
-    position: relative;
-}
-
-.dropdown1{
-    border:1px solid #EE2558;
-    border-radius: 5px;
-    width: 150px;
-    cursor: pointer;
-    font-size: 14px;
-}
-
-.dropdown1:hover{
-    border:1px solid blue;
-}
-
-.dropdown1-clicked{
-    border:1px solid blue
-}
-
-.arrow{
-    position: absolute;
-    margin-left: 23px;
-    top:4px;
-    transition: .3s;
-}
-
-.arrow-rotate{
-    transform: rotate(180deg);
-}
-
-.menu-section{
-    list-style: none;
-    font-size: 14px;
-    padding: 5px 0;
-    border:1px solid rgb(61, 60, 60);
-    border-radius: 5px;
-    width: 150px;
-    margin-top: 2px;
-    opacity: 1;
-    display: block;
-    z-index: 1;
-}
-
-.menu-open{
-    opacity: 1;
-    display: block;
-}
-
-
-.menu-section li{
-    
-    cursor: pointer;
-}
-
-.menu-section li:hover{
-    background-color: rgb(2, 73, 155);
-}
-
-.active{
-    background-color:blue ;
-} */
-
-
-
 
 .container{
     display: flex;
-    margin-left: 15%;
+    margin-left: 18%;
 }
 
 .dropdown{
@@ -312,6 +240,7 @@ label #cancel{
     
     .menu{
     list-style: none;
+    background-color: white;
     /* padding:0.1em 1em; */
     border:1px solid #222226;
     /* border: 1px solid whitesmoke; */
@@ -352,3 +281,294 @@ label #cancel{
     display:block;
     opacity:1;
     }
+
+    .job-detail{
+        padding: 20px;
+        margin-left: 16%;
+        margin-top: 1%;
+        font-weight: 400;
+    }
+
+    .job-role{
+        margin-top: 20px;
+    }
+
+    .job-role h1{
+        font-size: 25px;
+        color: #222226;
+        font-weight: 600;
+    }
+
+    .line1{
+        width:900px;
+        height:2px;
+        background-color: rgb(192, 188, 188);
+        margin-top: 2%;
+    }
+
+    .line2{
+        width:360px;
+        height:2px;
+        background-color: #EE2558;
+    }
+
+    .brand{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 13px;
+    }
+
+    .brand h2{
+        font-size: 18px;
+         font-weight: 400;
+         color: rgb(54, 54, 54);
+    }
+
+    .brand h6{
+        margin-right: 17%;
+        background-color: rgb(212, 204, 204);
+        padding: 10px 20px;
+        padding-top: 5px;
+        padding-left: 12px;
+        border-radius: 6px;
+        width:96px;
+        height:23px;
+
+    }
+
+    .roles h3{
+        font-size: 18px;
+        font-weight: 400;
+        color: rgb(83, 78, 78);
+        margin-top: 10px;
+    }
+
+    .details{
+        display: flex;
+        column-gap: 7px;
+        margin-top: 15px;
+        border-bottom: 1px dashed rgb(153, 153, 153);
+        padding: 20px;
+        width: 950px;
+    }
+
+    .details h2{
+        border: 1px dashed rgb(0, 81, 255);
+        color: rgb(0, 81, 255);
+        font-size: 14px;
+        padding: 5px;
+        border-radius: 5px;
+        width: 120px;
+    }
+
+    .details h3{
+        background-color: #ce1141;
+        color: white;
+        font-size: 14px;
+        padding-top: 5px;
+        padding-left: 8px;
+        border-radius: 5px;
+        width:90px;
+    }
+
+    .details h4{
+        color: #ce1141;
+        border: 1px solid #ce1141;
+        font-size: 14px;
+        border-radius: 5px;
+        padding:6px;
+        padding-left: 8px;
+        width:60px;
+    }
+
+    .role{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 13px;
+        cursor: pointer;
+    }
+
+    .role h2{
+        font-size: 18px;
+         font-weight: 400;
+         color: rgb(54, 54, 54);
+    }
+
+    .role h6{
+        margin-right: 17%;
+        background-color: rgb(212, 204, 204);
+        padding: 10px 20px;
+        padding-top: 5px;
+        padding-left: 12px;
+        border-radius: 6px;
+        width:96px;
+        height:23px;
+    }
+
+    .role h2 i{
+        color: rgb(161, 161, 161);
+    }
+
+    .sales h6{
+        width:105px;
+    }
+
+
+    /* .footer{
+        background-color:#0a1038;
+        padding: 30px 30px;
+        
+    
+    }
+    
+    .about-footer{
+        padding:20px 30px;
+        
+    }
+    
+    .row{
+        display:flex;
+        flex-wrap:wrap;
+    }
+    
+    .footercol-1 ul{
+        width: 500px;
+         display: flex;
+         justify-content: space-between;   
+    }
+    
+    .footercol-1 .copyright h5{
+        width:670px;
+        color: white;
+        font-size: 12px;
+        font-weight: 400;
+        padding-top: 10px;
+    }
+     .footercol-1 ul li a{ 
+        list-style: none;
+        color: white;
+        padding-left: 0px;
+        font-size: 14px;
+        font-weight: 500;
+       transition: .3s;
+    }
+    
+    .footercol-1 ul li a:hover{
+        color: #EE2558;
+        
+    }
+    
+    .footercol-1{
+        
+        padding:0 20px;
+    }
+    
+    .footercol-1 h3{
+      font-size: 13px;
+      color: white;
+    }
+    
+    .footercol-1 .social-links{
+        padding-top: 10px;
+    }
+    
+    .footercol-1 .social-links a{
+        display:inline-block;
+        height: 25px;
+        width: 25px;
+        border: 1px solid white;
+        text-align: center;
+        line-height: 30px;
+        border-radius: 50px;
+        color: #fff;
+        font-size:12px;
+        transition: .3s;
+    }
+    
+    .social-links a:hover{
+           color: #EE2558;
+           background-color: white;
+    }
+    
+    .footercol-1 h4{
+        font-size: 18px;
+        color: white;
+    }
+    
+    .footercol-apps{
+        display: flex;
+        column-gap: 4px;
+        padding-top: 10px;
+    
+    }
+    
+    .playstore{
+        display: flex;
+        border: 1px solid white;
+        background-color: rgb(26, 25, 25);
+        align-items: center;
+        column-gap: 7px;
+        height:38px;
+        width:130px;
+        padding-left: 10px;
+        color: rgb(141, 140, 140);
+        cursor: pointer;
+    }
+    .playstore i{
+        font-size: 22px;
+        color: white;
+    }
+    .playstore h6{
+        font-size: 8px;
+    }
+    .playstore h3{
+        color: gray;
+    }
+    
+    .appstore h3{
+        color:rgb(141, 140, 140) ;
+    }
+    
+    .playstore:hover{
+        background-color: rgb(59, 138, 228);
+        transform: 1s;
+        color: white;
+    }
+    
+    
+    .playstore h3:hover{
+        color: white;
+    }
+    
+    .appstore{
+        display: flex;
+        border: 1px solid white;
+        background-color: rgb(26, 25, 25);
+        align-items: center;
+        column-gap: 7px;
+        height:38px;
+        width:130px;
+        padding-left: 10px;
+        color: rgb(141, 140, 140);
+        cursor: pointer;
+    }
+    .appstore i{
+        font-size: 24px;
+        color: white;
+    }
+    .appstore h6{
+        font-size: 8px;
+    }
+    .appstore h3{
+        color:rgb(141, 140, 140) ;
+    }
+    
+    .appstore:hover{
+        background-color: rgb(59, 138, 228);
+        transform: 1s;
+        color: white;
+    }
+    
+    .appstore h3:hover{
+        color: white;
+    } */
